@@ -48,3 +48,5 @@ app-env:
     host: ${MYSQL_HOST:localhost}
     port: ${MYSQL_PORT:3306}
     dbName: ${MYSQL_DATABASE:dbName}
+  #自定义环境变量
+  privateVariable: "variable"
